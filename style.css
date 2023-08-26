@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #fffef1;
+}
+.logo {
+  width: 40vw;
+  text-align: left;
+  color: red;
+}
+.menuItems {
+  justify-content: center;
+  text-align: left;
+  width: 50vw;
+}
+nav {
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+#sign-up {
+  padding: 5px;
+  border-radius: 20%;
+  background-color: red;
+  color: white;
+  width: 150px;
+  height: 50px;
+}
+#food-explorer {
+  border-radius: 20%;
+  background-color: red;
+  color: white;
+  width: 120px;
+  height: 50px;
+  padding-inline-start: 10px;
+  text-align: center;
+}
+.hero-section {
+  width: 100vw;
+}
+#text-section {
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 150px;
+}
+#text-section > p > u {
+  text-decoration: none;
+  color: #fa5e53;
+}
+#hero-image {
+    margin-top: 100px;
+    margin-left: 200px;
+  height: 500px;
+  width: 500px;
+  padding-top: 400px;
+  float: left;
+  background-image: url("hero.jpj.png");
+  background-size: cover;
+    text-align: center;
+box-sizing: border-box;
+padding-bottom: 0px;
+  overflow: hidden;
+}
+.hero-section > #text-section > h5 {
+  color: #fa5e53;
+}
+#hero-text {
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+}
+#food-text {
+  color: #9795a0;
+  text-align: center;
+  padding-inline: 50px;
+}
+.card {
+    display: inline;
+    width: 100vw;
+
+}
+.card2 {
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+}
+.card-text {
+  width: 200px;
+  justify-content: center;
+  text-align: center;
+  padding-inline: 50px;
+  background-color: #ffffff;
+  box-shadow: #ffffff;
+  border-top-right-radius: solid #ffcf06 2px;
+}
+.card1 {
+  padding: 10px;
+  border-radius: 10%;
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+}
+.card4 {
+  padding: 10px;
+  border-radius: 10%;
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+#best{
+    text-decoration: none;
+  color: #fa5e53;
+  height: 100px;
+  width: 170px;
+  text-align: center;
+  justify-content: auto;
+  padding-inline: 10px;
+}
+.review{
+    height: 100px;
+    width: 180px;
+    color: #9795a0;
+    text-align: center;
+    justify-content: auto;
+    padding-inline: 10px;
+}
